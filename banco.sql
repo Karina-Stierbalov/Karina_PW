@@ -1,0 +1,7 @@
+CREATE DATABASE banco;
+USE banco;
+
+CREATE TABLE IF NOT EXISTS Alunos (
+    cod_aluno INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    nome_aluno VARCHAR(50));
+
